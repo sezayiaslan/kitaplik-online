@@ -16,6 +16,16 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/configserver" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../ProgramData/chocolatey/lib/gradle/tools/gradle-4.10.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/configserver" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
