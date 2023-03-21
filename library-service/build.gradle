@@ -21,7 +21,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
-    runtimeOnly 'com.h2database:h2'
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-config
+	//implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '4.0.1'
+	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation('org.springframework.cloud:spring-cloud-starter-bootstrap')
+
+	runtimeOnly 'com.h2database:h2'
 	// https://mvnrepository.com/artifact/commons-io/commons-io
 	implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
 
